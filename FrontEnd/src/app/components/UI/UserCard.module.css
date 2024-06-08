@@ -1,0 +1,42 @@
+.cardholder,.cardholderselected{
+    width:100%;
+    display: flex;
+    padding: 5px;
+    border: none;
+    border-bottom: solid 0.5px var(--graycolor);
+}
+
+.cardholder:hover{
+    cursor: pointer;
+    background-color: rgb(212, 211, 211);
+}
+
+.cardholderselected{
+    background-color: rgb(212, 211, 211);
+}
+
+.picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 45px;
+    border: none;
+}
+
+.cardtext{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    margin:1px 5px 0px 5px;
+}
+
+.none{
+    display: none;
+}

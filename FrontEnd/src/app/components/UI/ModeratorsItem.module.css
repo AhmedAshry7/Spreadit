@@ -1,0 +1,24 @@
+.row{
+    display: flex;
+    width: 100%;
+
+}
+
+.click{
+display: flex;
+width: 100%;
+align-items: center;
+}
+
+.row #title{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 90%;
+}
+.row #icon{
+    margin-top: 5px;
+}
+
+.click:hover{
+    background-color: rgb(229, 229, 229);
+}

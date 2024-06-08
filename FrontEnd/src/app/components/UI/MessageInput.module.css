@@ -1,0 +1,68 @@
+.inputarea{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4% auto 4%;
+    margin-bottom: 5px;
+}
+
+.imagepreviews{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.inputbox{
+    height: 40px;
+    border: solid gray 0.5px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100%;
+}
+.uploadbutton{
+    display: none;
+}
+.uploadedImage {
+    max-width: 200px;
+    width: auto;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.uploadicons,.icons,.disabled,.emoijiicon {
+    position: relative;
+    align-self: center;
+    width: 30px;
+    height: 25px;
+    padding: 3px;
+}
+
+.uploadicons{
+    top: 8px;
+}
+
+.icons:hover,.emoijiicon:hover {
+    cursor: pointer;
+    border-radius: 45px;
+    border: none;
+    background-color: rgb(212, 211, 211);
+} 
+
+.emoijiicon{
+    position: absolute;
+    right: 5px;
+    top: 8px;
+}
+
+.disabled:hover{
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+.inputholder{
+    position: relative;
+}
+
+.emojis{
+    position: absolute;
+    bottom: 65px;
+    right: 10px;
+}

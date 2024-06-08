@@ -1,0 +1,181 @@
+.modaloverlay{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: var(--modaloverlaybackground);
+    z-index: 100; 
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.modal{
+    background: white;
+    position: relative;
+    padding: 30px;
+    color: var(--mainblackcolor);
+    font-family: 'IBM Plex Sans';
+    border-radius: 25px;
+    text-align: left;
+    width:630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 101;
+  }
+
+  .title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 180%;
+   
+  }
+
+  .titlebox{
+    display: flex;
+  }
+
+  .closebutton{
+    margin-left: 120px;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .closebutton:hover{
+    background-color: rgb(239, 239, 239);
+  }
+
+  .titledesc{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    font-size: 80%;
+    width: 630px;
+    color: rgb(125, 125, 125);
+  }
+
+  .namebox{
+    border-radius: 20px;
+    height:50px;
+    width:580px;
+    font-size:14pt;
+    background-color: rgb(240, 240, 240);
+    border-color: transparent;
+    box-shadow: 0 0 2px 2px #efefef;
+    font-family: Arial; 
+    margin-top: -2px;
+ }
+
+ .nameboxdesc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    margin-left: 20px;
+    width: 430px;
+    color: rgb(159, 158, 158);
+    margin-top: 2px;
+ }
+
+ .typestitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 105%;
+    margin-bottom: 20px;
+    margin-top: -10px;
+
+ }
+
+ .typestitlebox{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+
+ .types{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    width: 430px;
+    color: rgb(0, 0, 0);
+    margin-top: -3px;
+    margin-left: 10px;
+ }
+
+ .typesdesc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    width: 430px;
+    color: rgb(159, 158, 158);
+    margin-top: -15px;
+    margin-left: 10px;
+ }
+
+ .typestitlebutton{
+    margin-left: -60px;
+    margin-top: -15px;
+    transform: scale(1.2); 
+}
+
+ .spliter{
+     color:rgb(215, 215, 215);
+     margin-bottom: 10px;
+     margin-top: -10px;
+}
+
+.toogle{
+    margin-left: -75px;
+    margin-top: -20px;
+}
+
+.buttonsbox{
+    margin-left: auto ;
+    display: flex;
+}
+
+.buttons{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    border-color: transparent;
+    background-color: rgb(231, 231, 231);
+    margin-right: 7px;
+    border-width: 10px;
+    font-size: 90%;
+    border:1px solid rgb(78, 78, 78);
+    min-width: 60px;
+    min-height: 40px;
+}
+
+.cancelbuttons{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    border-color: transparent;
+    background-color: rgb(231, 231, 231);
+    margin-right: 7px;
+    border-width: 10px;
+    font-size: 90%;
+    border:1px solid rgb(78, 78, 78);
+    min-width: 70px;
+    min-height: 40px;
+
+}
+
+.buttons:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.cancelbuttons:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.errorstext{
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    margin-left: 20px;
+    width: 430px;
+    margin-top: 2px;
+}

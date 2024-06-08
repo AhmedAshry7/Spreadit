@@ -1,0 +1,160 @@
+.RichTextContainerPosition {
+    position: relative;
+}
+
+.RichTextContainerFormatting {
+    border: 1px solid #edeff1;
+    border-radius: 4px;
+    position: relative;
+    background: #ffffff;
+    position: relative;
+    border-radius: 4px;
+}
+
+.RichTextToolbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+    z-index: 8;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f6f7f8;
+    border-radius: 3px 3px 0 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.RichTextToolbarPosition {
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 4px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.RichTextToolbarItemFlex {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.RichTextToolbarItem {
+    border-radius: 2px;
+    margin: 4px;
+    border-radius: 4px;
+    border: none;
+    color: #878a8c;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 0;
+    outline: none;
+    position: relative;
+    transition: background-color .1s;
+}
+
+.RichTextToolbarItem:hover {
+    background-color: #d0d1d2;
+}
+
+.RichTextToolbarItem:active {
+    background-color: #c2c3c4;
+}
+
+.ItemSelected {
+    color: #1a1a1b;
+}
+
+.miscIcon {
+    display: inline-block;
+    
+    padding: 0px 0px 8px 8px;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 4px;
+}
+
+.icon {
+    font-size: 14px;
+    font-weight: 400;
+    max-height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    max-width: 20px;
+}
+
+.tooltipPos {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0s .5s;
+    visibility: hidden;
+}
+
+.tooltipPos:hover{
+    visibility: visible;
+}
+
+.tooltip {
+    left: 50%;
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: 5px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        background-color: #000;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: 5px 16px;
+        pointer-events: none;
+        text-align: center;
+        transform: translateX(-50%);
+        white-space: pre;
+        z-index: 100;
+    }
+
+    .DraftEditorroot {
+        overflow: auto;
+        position: relative;
+      }
+      
+      .DraftEditoreditorContainer {
+        background-color: hsla(0, 0%, 100%, 0);
+        border-left: 0.1px solid transparent;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .publicDraftEditorcontent {
+        background-color: #ffffff;
+        border-radius: 4px;
+        color: #1c1c1c;
+        font-family: Noto Sans, Arial, sans-serif;
+        min-height: 122px;
+        overflow: hidden;
+        padding: 8px 16px;
+        resize: vertical;
+        outline: none;
+        user-select: text;
+        -webkit-user-select: text;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+
+      .publicDraftEditorcontent[contenteditable=true] {
+        -webkit-user-modify: read-write-plaintext-only;
+      }

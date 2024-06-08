@@ -1,0 +1,85 @@
+.rightsidebar{
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: rgb(239 238 238);;
+}
+
+.sectioninfo{
+    border-bottom: 0.5px solid #dad7d7;
+}
+
+.title{
+    margin: 0px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.description,.listitem{
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(122 120 120);
+}
+
+.orderedlist{
+    padding-left: 30px;
+    padding-right: 2px;
+    overflow-y: auto;
+}
+
+.listitem{
+    margin-bottom:15px ;
+}
+
+.messagebutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 5px;
+}
+
+.messagebutton:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(212, 211, 211);
+}
+
+.buttontext{
+    font-size: 14px;
+    margin:0px;
+}
+
+.icons{
+    position: relative;
+    align-self: center;
+    width: 25px;
+    height: 20px;
+    padding: 3px;
+}
+
+.moderatorinfo{
+   margin-left: 10%;
+   margin-bottom: 15px;
+   margin-top: 15px;
+   cursor: pointer;
+}
+
+.profilePicture{
+    width:30px;
+    height:30px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 12px;
+}
+
+.link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: black
+}

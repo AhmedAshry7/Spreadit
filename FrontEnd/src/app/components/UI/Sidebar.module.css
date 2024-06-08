@@ -1,0 +1,88 @@
+.sidebar{
+    height: 92%;
+    width : 270px;
+    background-color: rgb(255, 252, 252);
+    border: 1px solid rgb(123, 120, 120);
+    overflow-y: scroll;
+}
+
+.sidebarlist{
+    height: auto;
+    padding :0;
+    width: 100%;
+}
+
+.sidebarlist .row{
+    width: 100%;
+    height: 40px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sidebar .row:hover { 
+   cursor: pointer;
+   background-color: rgb(232, 232, 232) ;
+}
+
+.sidebarlist #active{
+    background-color: rgb(206, 204, 204);
+}
+
+.row #icon{
+    flex: 35%;
+    display: grid;
+    place-items: center;
+}
+
+.row #title{
+    flex: 80%;
+}
+
+.spliter{
+    display: grid;
+    place-items: center;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    color:rgb(221, 220, 220);
+}
+
+.dropdown{
+    display: flex;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+
+.dropdown:hover { 
+    cursor: pointer;
+    background-color: rgb(232, 232, 232) ;
+ }
+
+ .dropdowntitle{
+    color: rgb(96, 96, 96);
+    font-size:85%;
+    margin: 10px 30px;
+    display: flex;
+    flex: 30%;
+ }
+
+.inactive{
+    display: none;
+}
+
+.arrowbutton{
+    margin: 5px 40px;
+    margin-left: auto;
+    color: black;
+}
+
+.iconbox{
+    border-radius: 50%;
+}

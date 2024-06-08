@@ -1,0 +1,14 @@
+.notification {
+    width: 275px;
+    height: fit-content;
+    border: solid 1px rgb(255, 69, 0);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}

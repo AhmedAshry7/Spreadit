@@ -1,0 +1,223 @@
+.modelOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 20;
+    pointer-events: auto;
+}
+
+
+.modal {
+    box-shadow: rgba(26, 26, 27, 0.3) 0px 2px 15px 0px, 0 0 0 max(100vw, 100vh) rgb(0 0 0 / 60%);;
+    overflow-y: auto;
+    max-width: 584px;
+    width: 100%;
+    height: 510px;
+    box-sizing: border-box;
+    z-index: 5;
+    display: block;
+    border-radius: 1rem;
+    left: 0px;
+    right: 0px;
+    background: white;
+    margin: auto;
+    padding: 1rem;
+    pointer-events: all;
+    max-height: 95vh;
+    top: 50%;
+    transform: translateY(-50%);
+    position: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: auto;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0.075);
+    border: none;
+    border-radius: 100%;
+    background-size: auto;
+    height: 32px;
+    line-height: 30px;
+    width: 32px;
+    cursor: pointer;
+    position: relative;
+}
+
+.controls:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.title {
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 700;
+    align-items: center;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: rgb(19, 19, 19);
+    margin-bottom: 16px;
+    white-space: wrap;
+}
+
+.subTitle {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+
+}
+
+.subRedditPicture {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.rule {
+    align-items: center;
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+    justify-content: center;
+    display: inline-flex;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.1);
+    height: 40px;
+}
+
+.rule:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0.15);
+}
+
+.rule.selected:hover {
+    background-color: rgb(0, 0, 0, 0.25);
+}
+
+.subRedditRule {
+    align-items: center;
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+    justify-content: center;
+    display: inline-flex;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.subRedditRule:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0.15);
+}
+
+.subRedditRule.selected:hover {
+    background-color: rgb(0, 0, 0, 0.25);
+}
+
+.subRedditRule .rule {
+    background-color: transparent;
+    padding-left: 5px;
+    margin: 0px;
+}
+
+.ruleName {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: rgb(19, 19, 19);
+}
+
+.ruleDescription {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: rgb(19, 19, 19);
+}
+
+.rules {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    flex: 0 1 auto;
+    height: 260px;
+    max-height: 60vh;
+}
+
+.selected {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.body {
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    white-space: wrap;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio {
+    margin: 12px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.radioButton {
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid rgb(42, 60, 66);
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.radioButton:hover {
+
+    border: 1px solid rgb(0, 48, 120);
+}
+
+.radioButton.selected {
+    border: 1px solid rgb(0, 69, 172);
+}
+
+.radioButton:checked::before {
+    content: '';
+    display: block;
+    width: 9px;
+    height: 9px;
+    background-color: rgb(0, 69, 172);
+    border-radius: 100%;
+    margin: calc(50% - 4.5px);;
+}

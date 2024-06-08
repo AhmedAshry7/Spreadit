@@ -1,0 +1,461 @@
+.barcontainer{
+    display: grid;
+    grid-template-columns: 15% 5% 55% 5% 20%;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 26;
+    border-bottom: 0.2px solid grey;
+    background-color: white;
+}
+
+.leftbar{
+    grid-column: 1;
+    display: flex;
+    min-width: 200px;
+}
+
+.icontitle{
+    display: flex;
+    align-items: center;
+    min-width: 170px;
+}
+
+.leftbar:hover{
+    cursor: pointer;
+}
+
+.listicon{
+    width: 40px;
+    height: 30px;
+    align-self: center;
+    position: relative;
+    left: 10px;
+    padding: 5px;
+}
+
+
+.logo{
+    height: 40px;
+    position: relative;
+    width: 50px;
+    left: 5px;
+}
+
+.maintitle{
+    font-size: 20px;
+    font-weight: 900;
+    color: #FF4500;
+    position: relative;
+    margin-bottom: 0px;
+    left: 5px;
+}
+
+.searchbar{
+    background-color: #b9b6b6;
+    width: 100%;
+    height: 35px;
+    top: 15px;
+    position: relative;
+    border-radius: 20px;
+    border: none;
+    grid-column: 3;
+    display: flex;
+    z-index: 6;
+}
+
+.searchbar:hover{
+    background-color: rgb(212, 211, 211);
+}
+
+.searchbar:focus{
+    background-color: white;
+    border:0.3px grey solid;
+}
+
+.searchinputholder{
+    background-color: rgb(212, 211, 211);
+    width: 100%;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+}
+
+.searchinput{
+    position: relative;
+    background-color:transparent;
+    width: 100%;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    z-index: 5;
+    margin-left: -20px;
+}
+
+.searchinputholder:hover{
+    background-color: rgb(192, 192, 192);
+}
+
+.searchinputholder:focus {
+    background-color: white;
+    border:0.3px grey solid;
+}
+
+.searchinput:hover{
+    background-color: rgb(192, 192, 192);
+}
+
+.searchinput:focus {
+    background-color: transparent;
+    border:transparent ;
+    
+}
+
+.searchicon{
+    color: transparent;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 7;
+}
+
+.rightbar{
+    grid-column: 5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.baricons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.buttondescription{
+    margin-bottom: 0px;
+}
+
+.icons{
+    position: relative;
+    align-self: center;
+    width: 30px;
+    height: 25px;
+    padding: 3px;
+}
+
+.profilepicture{
+    position: relative;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+}
+
+.icons:hover,.listicon:hover,.profilepicture:hover{
+    cursor: pointer;
+    border-radius: 45px;
+    border:none;
+    background-color: rgb(212, 211, 211);
+}
+
+.createbutton{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    height: 30px;
+    padding: 5px;
+}
+
+.createbutton:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(212, 211, 211);
+}
+
+.loginbutton{
+    background-color: #DB3B00;
+    border-radius: 20px;
+    position: relative;
+    align-self: center;
+    width: 65px;
+    right: 10px;
+    color: white;
+    border: none;
+    height: 40px;
+}
+
+.loginbutton:hover{
+    background-color: #A50016;
+    cursor: pointer;
+}
+
+.unorderedlist{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    position: absolute;
+    z-index: 26;
+    right:2px;
+    top: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.listitem{
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    color: rgb(135, 138, 140);
+    border-bottom-style: solid;
+    border-block-width: 0.7px;
+    border-bottom-color: #c3bdbda1;
+    padding: 8px 16px 8px 8px;
+  }
+
+  .itemlabel{
+    /* font-family: 'IBM Plex Sans'; */
+    font-weight: 500;
+    margin: 0px;
+    font-size: 14px;
+    color: black;
+  }
+
+  .unorderedlist :hover {
+    background-color:rgb(212, 211, 211);
+    /* color: var(--mainblackcolor); */
+    cursor: pointer;
+  }
+
+  .link {
+    text-decoration: none;
+    align-self: center;
+    color: black
+}
+
+.modaloverlay{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--modaloverlaybackground);
+    z-index: 25; 
+    left: 0px;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid gray;
+    border-top: none;
+    border-radius: 4%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+    margin-top: -30px;
+    max-height: 1900%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownrow {
+    cursor: pointer;
+    text-align: start;
+    padding: 10px;
+    list-style-type: none;
+    margin-left: -30px ;
+}
+
+.dropdownrow:hover {
+    background-color: #f2f2f2;
+}
+
+.spliter{
+    display: grid;
+    place-items: center;
+   margin-left: -2%;
+    width: 100%;
+    height: 3px; 
+
+}
+
+.trendingtoday{
+    color: black; 
+    font-size: 90% ;
+    margin-top: -10px;
+}
+
+.searchtitle{
+    font-weight: 600;
+    font-size: 90%;
+}
+
+.searchbutton{
+    min-width: 100%;
+    z-index: 6;  
+    margin-left: -32px;
+    margin-top: -18px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: rgb(220, 220, 220);
+    height: 40px;
+    background-color: #ffffff;
+    color: #6c6c6c;
+    font-size: 90%;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchbutton:hover{
+    background-color: #f2f2f2;
+}
+
+.searchbarpage{
+    display: flex;
+    flex-direction: row;
+    z-index: 6;
+    font-size: 70%;
+    display: flex;
+    min-height: 50%;
+    background-color: #afafaf;
+    height: 26px;
+    color: black;
+    margin-left: 3px;
+    margin-top: 4.5px;
+    align-items: center ;
+    position: relative;
+    border-radius: 20px;
+}
+
+.searchbarpagetext{
+    margin-top: 14px;
+    margin-left:5px ;
+}
+
+.close{
+    margin-left: 4px;
+    margin-right: 5px;
+
+}
+
+.close:hover {
+    background-color: #929292;
+    border-radius: 50%;
+}
+
+  .notifications {
+    display: flex;
+    align-self: center;
+    position: relative;
+    margin-right: 5px;
+    align-items: center;
+  }
+
+  .notificationsModal {
+    position: absolute;
+    z-index: 15;
+    width: fit-content;
+    height: fit-content;
+    top: 42px
+  }
+
+  .notificationNumber {
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    background-color:rgb(255, 69, 0);
+    color: white;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: 0.75rem;
+    right: px;
+    top: 0px
+}
+
+.notificationPopUp {
+    position: fixed;
+    bottom: -100px; /* Initially hide the component below the viewport */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 0.5s ease; /* Transition for smooth rising effect */
+    cursor: pointer;
+}
+
+.showNotificationPopUp {
+    bottom: 20px;
+}
+
+@media(min-width:1200px){
+    .barcontainer{
+        grid-template-columns: 15% 10% 50% 10% 15%;
+    }
+    
+    .leftbar{
+        min-width: 170px;
+    }
+    .listicon{
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .barcontainer{
+        grid-template-columns: 15% 0% 60% 0% 25%;
+    }
+
+    .icontitle,.leftbar{
+        min-width: 100px;
+    }
+
+    .maintitle {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .barcontainer{
+        grid-template-columns: 15% 0% 45% 0% 40%;
+    }
+
+    .icontitle,.leftbar{
+        min-width: 60px;
+    }
+
+    .maintitle {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .barcontainer{
+        grid-template-columns: 20% 0% 35% 0% 45%;
+    }
+
+    .icontitle,.leftbar{
+        min-width: 60px;
+    }
+
+    .maintitle {
+        display: none;
+    }
+}
