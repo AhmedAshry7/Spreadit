@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+  .rowflex{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    height: 100%;
+  }
+
+  .page{
+    height: 100vh;
+    padding: 0px;
+  }
+
+  .inputwrap{
+    width:100%;
+    position: relative;
+  }
+
+  .inputs:focus{
+    border: 0.5px solid var(--brightcolor);
+  }
+
+  .inputs+label,.invalidInput+label{
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(124, 124, 124);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    padding: 14px;
+    position: absolute;
+    pointer-events: none;
+    transition: 0.3s ease all;
+    top: 4px;
+    left: 5px;
+  }
+  
+  .inputs:focus+label,
+  .inputs:valid+label,
+  .inputs:not(:placeholder-shown) + label,
+  .invalidInput:focus+label,
+  .invalidInput:valid+label,
+  .invalidInput.inputs:not(:placeholder-shown)+label{
+    font-size: 8px;
+    top:-5px;
+    left: 5px;
+  }
+
+  .formcontainer{
+    padding: 24px;
+    min-width: 260px;
+    max-width: 440px;
+    max-height: 600px;
+  }
+  
+  .inputs,.invalidInput{
+    min-height: 40px;
+    width: 360px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    text-indent: 16px;
+    border-radius:5px;
+    border-width:0.5px;
+    border-color:var(--brightcolor)
+  }
+
+  .invalidInput{
+    border: 2px solid red;
+  }
+
+
+  .errorMessage{
+    margin: 0px;
+    padding: 0px;
+    color: red;
+    font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+  }
+
+  .savebutton{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    border: none;
+    margin-top: 10px;
+    font-weight: 700;
+    letter-spacing: unset;
+    line-height: 18px;
+    text-transform: unset;
+    max-width: 392px;
+    width: auto;
+    min-width: 155px;
+    background: var(--enabledbuttonbackground);
+    border-radius: 999px;
+    color: white;
+    height: 40px;
+    padding: 0 16px;
+  }
+
+  .savebutton:hover{
+    cursor: pointer;
+  }
+  

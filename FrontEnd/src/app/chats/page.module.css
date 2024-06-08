@@ -1,0 +1,227 @@
+
+.page{
+  display: grid;
+  height: 100vh;
+  overflow-y: hidden;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.leftbar{
+    grid-column: 1;
+    border: none;
+    border-right: solid 0.5px var(--graycolor);
+    height:100%;
+    width: 25%;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.mainbar{
+  grid-column: 2 / 4;;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.divided{
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px; 
+}
+
+.rightbar{
+  grid-column: 3;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--graycolor) ;
+}
+
+.rowflex,.rowflexinfo, .pagerowflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.rowflexinfo{
+  background-color: rgb(212, 211, 211);
+}
+
+.pagerowflex{
+  padding: 10px;
+}
+
+.inputwrap{
+    width: 600px;
+    position: relative;
+    align-self: center;
+  }
+  
+  .inputusers{
+    width:100%;
+    height:45px;
+    border: 0.5px solid #9191917a;
+    border-radius: 5px;
+    text-indent: 16px;
+    outline:none;
+  }
+  
+  .inputwrap label{
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(124, 124, 124);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    padding: 14px;
+    position: absolute;
+    pointer-events: none;
+    transition: 0.3s ease all;
+    top: 4px;
+    left: 5px;
+  }
+  
+  .inputusers:focus+label,
+  .inputusers:valid+label,
+  .inputusers:not(:placeholder-shown) + label{
+    font-size: 8px;
+    top:-10px;
+    left: 5px;
+  }
+  
+  
+  .addbutton:hover{
+    cursor: pointer;
+    background-color: rgb(2, 10, 102);
+  }
+  
+  .inputusers:focus{
+    border: 0.5px solid var(--brightcolor);
+  }
+  
+  .addbutton:disabled{
+    color: var(--disabledbuttoncolor);
+    background-color: var(--disabledbuttonbackground);
+  }
+  
+  .addbutton{
+    font-family: 'IBM Plex Sans';
+    background-color: rgb(2, 17, 186);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    /* right: 10px; */
+    line-height: 32px;
+    border-radius: 45px;
+    border: none;
+    padding: 5px;
+    height: 40px;
+    align-self: end;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .headbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-bottom: solid 0.5px var(--graycolor); 
+  }
+
+  .icons{
+    position: relative;
+    align-self: center;
+    width: 30px;
+    height: 25px;
+    padding: 3px;
+}
+
+  .icons:hover,.listicon:hover,.profilepicture:hover{
+    cursor: pointer;
+    border-radius: 45px;
+    border:none;
+    background-color: rgb(212, 211, 211);
+}
+
+.pageheader{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal{
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.listcontainer{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 3px;
+  padding: 5px;
+}
+
+.checkbox:hover{
+  cursor: pointer;
+}
+
+.dlabel{
+  color: var(--graycolor);
+  font-size: 15px;
+}
+
+.topbar{
+  padding: 0px 10px;
+  border-bottom:  1px solid var(--graycolor);
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+}
+
+.dropdowncontainer,.toggleDropdown{
+  border: none;
+  position: relative;
+  margin: 4px 2px;
+  border-radius: 16px;
+  height: 25px;
+  font-size: 0.6rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: inherit;
+  
+}
+
+.righttitle{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 8px 10px 0px 10px;
+}
+
+.Xbutton{
+  position: relative;
+  background-color: white;
+  border: none;
+  font-size: medium;
+}
+
+.groupcontainer{
+
+  background-color: rgb(212, 211, 211);
+  padding: 10px;
+}
+
+.userscontainers{
+  margin: 10px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px;
+}
