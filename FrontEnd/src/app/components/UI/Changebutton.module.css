@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.smallcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    align-items: flex-start;
+    font-family: 'IBM Plex Sans';
+    color: var(--mainblackcolor);
+  }
+
+  .subsectiontitle{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px; 
+  }
+
+  .description{
+    margin-top: -10px;
+    font-size: 12px;
+    font-weight:400;
+    color: var(--graycolor);
+  }
+
+  .changecontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+  }
+
+  .brightbutton{
+    width:auto;
+    background-color: var(--buttonbackground);
+    border-radius: 30px;
+    height: 30px;
+    border: none;
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 1px var(--brightcolor);
+    color: var(--brightcolor);
+    padding: 4px 16px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .brightbutton:hover{
+    background-color: var(--hoverbrightcolor);
+    transition: 0.6s;
+    cursor: pointer;
+  }

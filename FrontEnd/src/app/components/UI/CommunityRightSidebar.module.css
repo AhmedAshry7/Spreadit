@@ -1,0 +1,146 @@
+.sidebar{
+    height: 100%;
+    width : 310px;
+    border: 5px solid rgb(143, 142, 142);
+    overflow-y: scroll;
+    border-radius: 15px;
+    background-color: rgb(245, 244, 244);
+    border-color: transparent;
+}
+
+.communitytype{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 88%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 86%;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-top: -15px;
+    text-align: left;
+    color: rgb(142, 142, 142);
+}
+
+.communityinfo{
+    display: flex;
+    margin-top: -15px;
+}
+
+.communityinfo1{
+    margin-left: 30px;
+}
+
+
+
+.nums{
+    font-family: Arial;
+    font-weight: 550;
+    font-size: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.numstitle{
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 82%;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-top: -20px;
+    text-align: left;
+    color: rgb(142, 142, 142);
+}
+
+.spliter{
+    text-align: center;
+    font-weight: normal;
+    color: rgb(228, 228, 228);
+    margin-top: -10px;
+}
+
+.sidebartitles{
+    color: rgb(105, 105, 105);
+    font-weight: 500px;
+    text-align: left;
+    font-size: 75%;
+    margin-top: -10px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+.bookmarksbuttons{
+    width:270px ;
+    height: 33px;
+    margin-left: 5px;
+    border-radius: 100px;
+    background-color: rgb(233, 232, 232);
+    border-color: transparent;
+    margin-top: 6px;
+    font-size: 75%;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.bookmarksbuttons:hover{
+    background-color: rgb(226, 226, 226);
+    text-decoration: underline;
+}
+
+.dropdown{
+    display: flex;
+    font-family: Arial;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.dropdownmenu{
+    margin-left: 5px;
+    font-size: 90%;
+    color: rgb(105, 105, 105);
+    width : 250px;
+}
+
+.dropdownmenu:hover{
+    background-color: rgb(232, 232, 232);
+}
+
+.dropdowntitle{
+    margin-left: 20px;
+}
+
+.arrowbutton{
+    margin: 0px 0px;
+    margin-left: auto;
+    color: black;
+}
+
+.sidebarlist {
+    list-style-type: none; 
+    margin: 0;  
+    padding: 0;  
+    width: 100%;
+}
+
+.row {
+    padding: 0px;  
+    width: 120%; 
+    box-sizing: border-box;  
+    cursor: pointer;  
+    margin-left: -20px;
+}
+
+.row:hover {
+    background-color: rgb(232, 232, 232); 
+}
+
+.dropdowndesc{
+    margin-left: 20px;
+}

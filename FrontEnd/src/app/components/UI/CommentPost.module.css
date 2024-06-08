@@ -1,0 +1,214 @@
+.post {
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0px;
+    width: 100%;
+    color: rgb(42, 60, 66);
+    border-radius: 16px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.title {
+    color: rgb(15, 26, 28);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0px;
+    margin-bottom: 4px;
+    overflow-wrap: break-word;
+}
+
+.changeImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: auto;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 100%;
+    background-size: auto;
+    height: 32px;
+    line-height: 30px;
+    width: 32px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.exitFullScreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: auto;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 100%;
+    background-size: auto;
+    height: 48px;
+    line-height: 30px;
+    width: 48px;
+    cursor: pointer;
+    position: absolute;
+    top: 4%;
+    transform: translateY(-50%);
+    left: 96%;
+    z-index: 30;
+}
+
+.changeImage:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.media {
+    padding-bottom: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 50vh;
+    border: 2px solid white;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.video {
+    width: 100%;
+    height: 50vh;
+    border-radius: 16px;
+}
+
+.backgroundImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    z-index: -1;
+}
+
+.previousImage {
+    left: 10px;
+}
+  
+.nextImage {
+    right: 10px;
+}
+
+.fullImage {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 30;
+    pointer-events: auto;
+    cursor: default;
+}
+
+
+
+.blurBackground
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(90px);
+}
+
+.postcontent{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    display: flex;
+    backdrop-filter: blur(90px);
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    margin-bottom: 35px;
+    border-radius: 16px;
+    outline: 2px solid white;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+}
+
+
+.description {
+    width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    margin-bottom: 10px;
+    -webkit-box-orient: vertical;
+}
+
+.viewButton {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-left: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    filter: brightness(100%) saturate(0%) invert(0%);
+    z-index: 10;
+}
+
+.description.view {
+    min-height: 80px;
+    height: 100%;
+}
+
+.deleted {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.deletedText {
+    color: rgb(15 26 28);
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}

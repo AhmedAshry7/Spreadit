@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+  
+.delete{
+    border:none;
+    color:var(--deletebuttonbackground);
+    font-size:12px;
+    font-weight: bold;
+    background-color: var(--buttonbackground);
+  }
+  
+  .bin{
+    height: 20px;
+    width:20px;
+    margin-bottom: 3px;
+    position: relative;
+    right:-7px
+  }
+
+  .leftflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  
+.deletecontainer{
+    width:100%;
+    color: var(--mainblackcolor);
+    font-family: 'IBM Plex Sans';
+  }
+
+  .Xbutton{
+    position: relative;
+    top: -15px;
+    left: 390px;
+    background-color: white;
+    border: none;
+    font-size: medium;
+  }
+
+  .modaloverlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--modaloverlaybackground);
+    z-index: 1000; 
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inputs,.invalidInput{
+    min-height: 40px;
+    width: 360px;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .invalidInput{
+    border: 2px solid red;
+  }
+
+  .errorMessage{
+    margin: 0px;
+    padding: 0px;
+    color: red;
+    font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .modal{
+    background: white;
+    position: relative;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+    width:400px;
+    color: var(--mainblackcolor);
+    font-family: 'IBM Plex Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 1001;
+    box-sizing: content-box;
+  }
+
+  .deleteform{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+    margin-right: 40px;
+    width: 100%;
+  }
+  
+.deleteformlabel{
+    margin-top: -30px;
+    margin-bottom: 10px;
+  }
+.learnmore{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  .dlabel{
+    color: var(--graycolor);
+    font-size: 11px;
+  }
+  .dlabel+.whyleaving{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .verify{
+    color: var(--graycolor);
+    font-size: 11px;
+  }
+
+  
+  .inlineflex{
+    display: inline-block;
+  }
+
+  .brightbutton{
+    width: 80px;
+    background-color: var(--buttonbackground);
+    border-radius: 30px;
+    height: 30px;
+    border: none;
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 1px var(--brightcolor);
+    color: var(--brightcolor);
+  }
+
+  .brightbutton:hover{
+    background-color: var(--hoverbrightcolor);
+    transition: 0.6s;
+    cursor: pointer;
+  }
+
+  .smalldarkbutton{
+    position: relative;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--enabledbuttonbackground);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    margin-left: 10px
+  }
+  
+  .smalldarkbutton{
+    background-color: var(--deletebuttonbackground);
+    color: white;
+  }
+  
+  .smalldarkbutton:disabled{
+    background-color: var(--disabledbuttonbackground);
+    color: var(--disabledbuttoncolor);
+  }
+  .smalldarkbutton:disabled:hover{
+    cursor: not-allowed;
+  }
+  
+  .smalldarkbutton{
+    width: 80px;
+  }
+  .line{
+    background-color: rgb(216 213 213);
+    border: rgb(216 213 213);   
+    height: 1px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+.Xbutton:hover,.checkfordelete:hover,.delete:hover,.smalldarkbutton:hover{
+    cursor: pointer;
+  }
+  

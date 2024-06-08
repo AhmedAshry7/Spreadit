@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.smallcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    align-items: flex-start;
+    font-family: 'IBM Plex Sans';
+    color: var(--mainblackcolor);
+  }
+
+  .subsectiontitle{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px; 
+  }
+
+  .description{
+    margin-top: -10px;
+    font-size: 12px;
+    font-weight:400;
+    color: var(--graycolor);
+  }
+  
+.addboxcontainer{
+    width:100%;
+    position: relative;
+  }
+  
+  .inputwrap{
+    width:100%;
+    position: relative;
+  }
+  
+  .inputbox{
+    width:100%;
+    height:45px;
+    border: 0.5px solid #9191917a;
+    border-radius: 5px;
+    text-indent: 16px;
+    outline:none;
+  }
+  
+  .inputwrap label{
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(124, 124, 124);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    padding: 14px;
+    position: absolute;
+    pointer-events: none;
+    transition: 0.3s ease all;
+    top: 4px;
+    left: 5px;
+  }
+  
+  .inputbox:focus+label,
+  .inputbox:valid+label,
+  .inputbox:not(:placeholder-shown) + label{
+    font-size: 8px;
+    top:-10px;
+    left: 5px;
+  }
+  
+  
+  .addbutton{
+    position: absolute;
+    top: 1px;
+    right: 0px;
+  }
+  
+  .addbutton:hover{
+    cursor: pointer;
+  }
+  
+  .inputbox:focus{
+    border: 0.5px solid var(--brightcolor);
+  }
+  
+  .addbutton:disabled{
+    opacity: 0.4;
+  }
+  
+  .addbutton{
+    font-family: 'IBM Plex Sans';
+    background-color: white;
+    color:var(--brightcolor);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    right: 10px;
+    line-height: 32px;
+    border: none;
+    padding: 0px;
+    height: 40px;
+  }

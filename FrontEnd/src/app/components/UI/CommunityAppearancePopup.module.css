@@ -1,0 +1,138 @@
+.popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 450px;
+    height: auto; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    margin-bottom: -10px;
+
+  }
+  
+  .content {
+    width: 380px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s ease;
+  }
+  
+.title{
+    font-size: 20px;
+    min-width: 80%;
+}
+
+  .content:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); 
+  }
+
+ .list{
+    min-width: 200px;
+    margin-left: -40px;
+ }
+  
+  .option {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    list-style: none; 
+    
+  }
+  
+  .option:hover {
+    background-color: #f5f5f5; 
+  }
+  
+  .close {
+    margin-top: 0px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 0px;
+  }
+
+  .save {
+    margin-top: 0px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-left: 10px;
+  }
+  
+  .close:hover {
+    background-color: #0056b3; /* Background color on hover */
+  }
+
+  .save:hover {
+    background-color: #0056b3; /* Background color on hover */
+  }
+
+  .closebutton{
+    border-radius: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
+
+  .backbutton{
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    margin-top: -2px;
+    margin-right: 3px;
+  }
+
+  .backbuttonsize{
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .closebutton:hover{
+    background-color: rgb(239, 239, 239);
+  }
+
+  .backbutton:hover{
+    background-color: rgb(239, 239, 239);
+  }
+  
+
+.titlebox{
+    display: flex;
+}
+
+.uploadinput{
+    padding: 10px 10px;
+    background-color: #e7e7e7;
+    border-radius: 20px;
+    max-width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.pfp{
+ margin: 20px 120px;
+ border-radius: 50%;
+}
+
+.banner{
+ margin: 20px 20px;
+ border-radius: 5px;
+}

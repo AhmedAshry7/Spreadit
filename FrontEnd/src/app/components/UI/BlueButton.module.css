@@ -1,0 +1,30 @@
+.blue_button {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    background: #0079d3;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: unset;
+    min-height: 35px;
+    max-width: 392px;
+    width: auto;
+    min-width: 155px;
+    padding: 5px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.blue_button:hover {
+    background: #3394dc;
+}
+
+.blue_button:active {
+    background: #0061a9;
+}
+

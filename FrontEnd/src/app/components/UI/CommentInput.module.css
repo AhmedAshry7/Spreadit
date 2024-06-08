@@ -1,0 +1,262 @@
+.inputcontainer {
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    margin: 5px;
+}
+
+.commentContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.commenttextarea {
+    width: 100%;
+    flex-grow: 1;
+    outline: none;
+    overflow-y: auto;
+    min-height: 100px;
+    position: relative; 
+}
+
+.uploadedImage {
+    max-width: 200px;
+    width: auto;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box;
+}
+
+.leftbuttons {
+    display: flex;
+    align-items: center;
+}
+
+.addButton, .cancelButton,.editButton,.discardButton,.cancelButton2 {
+    background-color: #a50f03;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.addButton:hover,.cancelButton:hover,.editButton:hover,.discardButton,.cancelButton2{
+    cursor: pointer;
+}
+
+.cancelButton,.cancelButton2{
+    background-color: rgb(185 183 183);
+    color: black;
+}
+
+.discardButton,.cancelButton2{
+    width: 160px;
+    height: 40px;
+}
+.editButton{
+    background-color: rgb(2, 17, 186);
+}
+
+.editButton:hover{
+    background-color: rgb(2, 10, 102);
+}
+
+.addButton:hover,.discardButton:hover{
+    background-color: #7e0b03;
+}
+
+.cancelButton:hover,.cancelButton2:hover {
+    background-color: rgb(212, 211, 211);
+}
+
+
+
+.icons {
+    position: relative;
+    align-self: center;
+    width: 30px;
+    height: 25px;
+    padding: 3px;
+}
+
+.icons:hover {
+    cursor: pointer;
+    border-radius: 45px;
+    border: none;
+    background-color: rgb(212, 211, 211);
+} 
+
+.uploadbutton{
+    display: none;
+} 
+
+.disabled:hover{
+    cursor: not-allowed;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+.modaloverlay{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: var(--modaloverlaybackground);
+    z-index: 1000; 
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal{
+    background: white;
+    position: relative;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+    width:400px;
+    color: var(--mainblackcolor);
+    font-family: 'IBM Plex Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 1001;
+    box-sizing: border-box;
+  }
+
+  .Xbutton{
+    position: relative;
+    top: -15px;
+    left: 350px;
+    background-color: white;
+    border: none;
+    font-size: medium;
+  }
+
+  .modalbuttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+/*
+
+
+.inputcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.commentContent {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.uploadedImage {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    object-fit: cover;
+}
+
+
+.inputcontainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.commenttextarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    resize: vertical;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    position: relative; 
+    height: auto;  
+    min-height: 100px; 
+    overflow-y: hidden;
+}
+
+.buttonGroup {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftbuttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.addButton,.cancelButton {
+    background-color: #a50f03;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-left: 5px;
+    padding: 5px;
+    
+}
+
+.cancelButton{
+    background-color: rgb(185 183 183);
+    color: black;
+}
+
+.addButton:hover{
+    background-color: #7e0b03;
+    cursor: pointer;
+}
+
+.cancelButton:hover{
+    background-color: rgb(212, 211, 211);
+    cursor: pointer;
+}
+
+.icons{
+    position: relative;
+    align-self: center;
+    width: 30px;
+    height: 25px;
+    padding: 3px;
+}
+
+.icons:hover{
+    cursor: pointer;
+    border-radius: 45px;
+    border:none;
+    background-color: rgb(212, 211, 211);
+}
+
+.uploadbutton{
+    display: none;
+} */

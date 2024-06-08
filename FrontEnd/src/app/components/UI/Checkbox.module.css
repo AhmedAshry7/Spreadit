@@ -1,0 +1,43 @@
+
+.unchecked {
+    fill: #878a8c;
+}
+
+.checkbox {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.checkboxWrapper,
+.notificationSettingsAction {
+    align-items: center;
+}
+
+.notificationLabel,
+.tooltipText {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.checkboxWrapper {
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.notificationLabel {
+    margin-left: 8px;
+    margin-right: 4px;
+}
+
+.checkboxIcon svg {
+    width: 16px;
+}
+
+.checkboxIcon path {
+    fill: #0079d3;
+}

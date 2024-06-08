@@ -1,0 +1,114 @@
+.circle{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: inherit;
+}
+
+.upvotes_container{
+    display: flex;
+    align-items: center;
+    background-color: inherit;
+}
+
+.post_footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.post_interactions{
+    display: inline-flex;
+    gap: 10px;
+}
+
+.dropdowncontainer,.toggleDropdown{
+    border: none;
+    position: relative;
+    margin: 4px 2px;
+    border-radius: 16px;
+    height: 25px;
+    font-size: 0.6rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: inherit;
+    
+}
+
+.upvotes_button,.downvotes_button{
+    height:25px;
+    width:25px;
+    border-radius:50% 0 0 50%;
+}
+
+
+.downvotes_button{
+    border-radius:0 50% 50% 0;
+}
+
+
+.count{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    background-color: inherit;
+}
+
+.btn{
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 6px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    height: 25px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+}
+
+.btn:hover{
+    background-color: #E2E7E9;
+}
+
+.toggleDropdown:hover{
+    background-color: #E2E7E9;
+}
+
+.mod_interactions{
+    margin: auto 0 auto auto;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 6px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    height: 25px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    right: 0px;
+}
+
+.mod_interactions:hover{
+    background-color: #E2E7E9;
+}
