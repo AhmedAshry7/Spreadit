@@ -1,0 +1,104 @@
+.page {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 250px 1fr 750px 350px 1fr;
+}
+
+
+
+@media (max-width: 800px) {
+    .page {
+        grid-template-columns: 1px 1fr 90vw 24px 1fr;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1150px) {
+    .page {
+        grid-template-columns: 1px 1fr 750px 24px 1fr;
+    }
+}
+
+
+@media (min-width: 1150px) and (max-width: 1400px) {
+    .page {
+        grid-template-columns: 1px 1fr 750px 350px 1fr;
+    }
+}
+
+.recentPostsContainer {
+    display: flex;
+    height: 93%;
+    position: fixed;
+    top: 60px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.recentPostsGridColumn {
+    position: relative;
+    grid-column: 4/5;
+}
+
+.feed {
+    display: flex;
+    position: relative;
+    top: 60px;
+    flex-direction: column;
+    grid-column: 3/4;
+}
+
+.sideBar {
+    display: flex;
+    position:fixed;
+    flex: 0 0 250px;
+    top:60px;
+    height: 100%;
+    width: fit-content;
+}
+
+.backToTop {
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    z-index: 10;
+  }
+
+  .feedHeader {
+    margin: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    column-gap: 5px;
+  }
+
+  .sortButton {
+    position: relative;
+    border: none;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    width: auto;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    background-color: transparent;
+  }
+
+
+  .sortButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .sortArrow {
+    filter: invert(86%) sepia(16%) saturate(995%) hue-rotate(172deg) brightness(50%) contrast(100%);
+    transform: rotate(180deg);
+    margin-left: 5px;
+  }

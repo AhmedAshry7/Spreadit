@@ -1,0 +1,40 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    position: relative;
+    width: 90%;
+}
+
+.inputbox,.inputtextbox{
+    width:500px;
+}
+
+.inputtextbox{
+    height: 100px;
+}
+
+.sendbutton{
+    display: inline-block;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #0079d3;
+    border-color: #0079d3;
+    padding: 6px 16px 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.errorMessage{
+    margin: 0px;
+    padding: 0px;
+    color: red;
+    font-size: 12px;
+  }

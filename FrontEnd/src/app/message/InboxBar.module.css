@@ -1,0 +1,35 @@
+.tabs {
+    display: flex;
+    border-bottom: 0.1rem solid rgb(232, 231, 231);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    align-self: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link h1 {
+    margin: 0px;
+    margin-right: 8px;
+    color: rgb(124, 124, 124);
+    font-size: 0.875rem;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 14px;
+    padding: 12px;
+    border: none;
+    text-decoration: none;
+}
+
+.link h1.selected {
+    border-bottom: 3px solid rgb(0, 121, 211);
+    color: black;
+}
+
+.link h1:hover {
+    color: black;
+}

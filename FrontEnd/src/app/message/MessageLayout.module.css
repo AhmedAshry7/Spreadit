@@ -1,0 +1,45 @@
+.bar {
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    color: black;
+    font-size: 1.125rem;
+    font-weight: 500;
+    align-items: center;
+}
+
+.pages {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.inbox {
+    border-right: solid 1px black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.sent {
+    border-left: solid 1px black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.sendMessage {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    cursor: pointer;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.selected {
+    color: rgb(255, 69, 0);
+}
