@@ -1,0 +1,16 @@
+.margin {
+  margin-top: -8px;
+  margin-bottom: 4px;
+}
+
+.ColorSizing {
+  fill: #0079d3;
+  height: 36px;
+  stroke: #0079d3;
+  width: 36px;
+}
+
+.svgContainer svg:not(.root) {
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+}

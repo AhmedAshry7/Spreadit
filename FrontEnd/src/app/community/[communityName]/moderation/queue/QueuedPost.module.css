@@ -1,0 +1,304 @@
+
+.ext {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.area {
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #edeff1;
+    padding: 85px;
+    text-align: center;
+}
+
+.postArea {
+    padding-left: 40px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: rgb(255,255,255,0.8);
+    color: #878a8c;
+    position: relative;
+}
+
+.voteFlex {
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    left: 0;
+    padding: 8px 4px 8px 0;
+    position: absolute;
+    top: 0;
+}
+
+
+.checkboxFilter {
+    height: 20px;
+    width: 20px;
+    background: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: initial;
+}
+
+.icon {
+    font-size: 20px;
+    font-weight: 400;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    width: 20px;
+    fill: #878a8c;
+}
+
+.voteFont {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    pointer-events: none;
+    word-break: normal;
+}
+
+.postBody {
+    background: #fff;
+    position: relative;
+    padding-top: 8px;
+}
+
+.postHeaderFlex {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-align: start;
+    align-items: start;
+    margin: 0 8px 8px;
+    position: relative;
+}
+
+.subIcon {
+    -ms-flex: 0 0 auto;
+    user-select: none;
+    flex: 0 0 auto;
+}
+
+.subIconAlign {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    color: white;
+    display: inline;
+    line-height: 20px;
+    text-decoration: none;
+    user-select: none;
+    vertical-align: baseline;
+}
+
+.subIconPrev {
+    display: inline-block;
+    height: 20px;
+    margin-right: 4px;
+    vertical-align: middle;
+    text-align: center;
+    width: 20px;
+    border-radius: 9999px;
+    user-select: none;
+}
+
+.voteTransition {
+    transition: color .5s, fill .5s, box-shadow .5s;
+}
+
+.placeholder {
+    height: 24px;
+}
+
+.placeholder2 {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.subNameFlex {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.subNameStyle {
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    -ms-flex-align: center;
+    align-items: center;
+    color: inherit;
+}
+
+.subNameDisplay {
+    display: inline-block;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.subNameText {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #1c1c1c;
+    display: inline;
+    line-height: 20px;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+.dotSpan {
+    vertical-align: middle;
+    color: #7c7c7c;
+    font-size: 6px;
+    line-height: 20px;
+    margin: 0 4px;
+}
+
+.spanPostedBy {
+    color: rgb(120, 124, 126);
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-right: 3px;
+}
+
+.userLink {
+    color: rgb(120, 124, 126);
+    margin-right: 3px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.titleMargin {
+    margin: 0 8px;
+}
+
+.titleText {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+a:visited > .titleColor {
+    color: #9b9b9b;
+}
+
+.titleColor {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.placeholder3 {
+    margin-top: 8px;
+}
+
+.comment {
+    display: inline-block;
+    margin: 10px 0 10px 8px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.bottomOptions {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    min-height: 40px;
+    overflow-y: visible;
+}
+
+.bottomFlex {
+    display: -ms-flexbox;
+    display: flex;
+    width: calc(100% - 8px);
+    margin-left: 8px;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+}
+
+.bottomPadFlex {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 12px 0;
+    gap: 12px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.reportBanner {
+    background-color: rgba(255,69,0,.2);
+    display: -ms-flexbox;
+    display: flex;
+    padding: 8px 12px;
+    border-radius: 4px;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-right: 16px;
+}
+
+.reportFlex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+
+.reportAlign {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    width: 100%;
+}
+
+.reportCountFlex {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.reportCount {
+        font-weight: 700;
+    font-size: 12px;
+    color: #1c1c1c;
+}
+
+.flag {
+    margin-right: 8px;
+    color: rgba(234,0,39,.7);
+    fill: rgba(234,0,39,.7);
+    height: 24px;
+    width: 24px;
+}

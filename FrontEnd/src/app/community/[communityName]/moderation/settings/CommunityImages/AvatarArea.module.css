@@ -1,0 +1,18 @@
+.border {
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.color {
+    color: #ffffff;
+    text-indent: -9999px;
+}
+.box {
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}

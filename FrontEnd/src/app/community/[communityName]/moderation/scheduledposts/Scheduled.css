@@ -1,0 +1,69 @@
+.saveHeader {
+    padding: 0 24px;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: 48px;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    left: 280px;
+    right: 0;
+    z-index: 3;
+    top: 60px;
+    background-color: #ffffff;
+}
+
+.pt-sm {
+    padding-top: 0.75rem;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.pagePadding {
+    padding-left: 280px;
+}
+
+.pageSize {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pageBodyBorder {
+    padding-top: 64px;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+}
+
+.pageBody {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    max-width: 856px;
+    padding: 16px 24px;
+}
+
+.pageBodyHeader {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #1c1c1c;
+    margin-bottom: 16px;
+}
+
+.listArea {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.listColumn {
+    display: inline-block;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}

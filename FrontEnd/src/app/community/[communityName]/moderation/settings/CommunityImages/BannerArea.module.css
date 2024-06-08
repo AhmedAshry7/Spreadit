@@ -1,0 +1,9 @@
+.box {
+    background-position: center center;
+    background-size: auto; /* Use 'auto' instead of 'contain' or 'cover' */
+    border-radius: 4px 4px 0 0;
+    height: 100%;
+    width: 412px;
+    overflow: hidden; /* Hide any overflow beyond the container */
+}
+
