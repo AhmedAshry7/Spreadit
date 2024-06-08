@@ -1,0 +1,17 @@
+
+.title {
+    margin-top: 80px;
+    padding: 14px;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.sideBar {
+    display: flex;
+    position:fixed;
+    flex: 0 0 250px;
+    top:60px;
+    left: 0px;
+    height: 100%;
+    width: fit-content;
+}

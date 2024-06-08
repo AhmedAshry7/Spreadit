@@ -1,0 +1,57 @@
+
+.limargin {
+  margin: 6px 2px;
+}
+
+.buttonround {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #edeff1;
+  border-radius: 9999px;
+  color: #1c1c1c;
+  cursor: pointer;
+  display: flex;
+  height: 20px;
+  margin-right: 8px;
+  padding: 18px 12px;
+  white-space: nowrap;
+}
+
+.iconMargin {
+  margin-right: 8px;
+}
+
+.xMarginLeft {
+  margin-left: 10px;
+  justify-content: flex-end;
+}
+
+.icon {
+  font-size: 20px;
+  font-weight: 400;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  width: 20px;
+  fill: #1c1c1c;
+}
+
+.buttonroundd {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000000;
+  border-radius: 9999px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  height: 20px;
+  margin-right: 8px;
+  padding: 18px 12px;
+  white-space: nowrap;
+}

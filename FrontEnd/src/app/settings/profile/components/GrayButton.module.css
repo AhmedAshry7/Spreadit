@@ -1,0 +1,35 @@
+.buttonround {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #edeff1;
+    border-radius: 9999px;
+    color: #1c1c1c;
+    cursor: pointer;
+    display: flex;
+    height: 20px;
+    margin-right: 8px;
+    padding: 18px 12px;
+    white-space: nowrap;
+  }
+
+  .buttonroundd{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #edeff1;
+    border-radius: 9999px;
+    color: #1c1c1c;
+    cursor: pointer;
+    display: flex;
+    height: 20px;
+    margin-right: 8px;
+    padding: 18px 12px;
+    white-space: nowrap;
+    color: #7c7c7c;
+    cursor: default;
+  }
