@@ -1,0 +1,77 @@
+.createLeftFlexDropdownFlexContainer
+{
+    margin-bottom: 8px;
+}
+
+.createDropdownArea {
+  margin-right: 16px;
+  position: relative;
+  box-sizing: border-box;
+  min-width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  transition: box-shadow 0.2s ease 0s;
+  box-shadow: 0 0 0 0 #ffffff;
+  border: 1px solid #edeff1;
+  background-color: #ffffff;
+}
+
+.createLeftFlexGroupedOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.createDropdownFlex {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0px 8px;
+}
+
+.createCommunityIcon {
+  box-sizing: border-box;
+  border-radius: 22px;
+  border: 1px dashed #878a8c;
+}
+.createDropdownOptionIcon{
+  margin: 0px;
+  height: 22px;
+  width: 22px;
+  font-size: 22px;
+  line-height: 22px;
+}
+.createDropdownOptionFlex {
+  flex: 1 1 0%;
+  padding-left: 8px;
+}
+
+.createDropdownOptionText {
+  
+    border: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    width: 100%;
+    vertical-align: middle;
+    color: #1c1c1c;
+    background-color: transparent;
+  }
+
+.icon {
+    font-size: 20px;
+    font-weight: 400;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+  }
+
+  .dropdownArrowColor {
+    fill: #878a8c;
+    cursor: pointer;
+}
+
+.boxShadow {
+    box-shadow: 0 0 2px 1px #edeff1;
+}

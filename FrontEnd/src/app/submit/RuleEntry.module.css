@@ -1,0 +1,93 @@
+.boxRulesTitle {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 8px 13px;
+}
+
+.boxRulesTitleFlex {
+    
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.boxRulesTitleNumberCell {
+    -ms-flex: 0 0;
+    flex: 0 0;
+}
+
+.boxRulesTitleNumberPadding {
+    padding-right: 2px;
+}
+
+.boxRulesTitleCell {
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    width: 100%;
+}
+
+.boxRulesTitlePadding {
+    margin-left: 4px;
+    padding-right: 8px;
+    word-break: break-word;
+}
+
+.boxRulesTitleDropdownCell {
+    -ms-flex: 0 0;
+    flex: 0 0;
+}
+
+.boxRulesTitleDropdown {
+    display: inline-block;
+    fill: #878a8c;
+    height: 20px;
+    margin-left: 2px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.boxRulesDescription {
+    font-family: Noto Sans,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 8px 8px 0 19px;
+}
+
+.boxRulesDescription2 {
+    font-family: Noto Sans, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    word-break: break-word;
+    overflow: auto;
+    padding-bottom: 1px;
+    margin-bottom: -1px;
+    color: #1c1c1c;
+}
+
+.boxRulesDescriptionPadding:last-child {
+    padding-bottom: 0;
+}
+
+.boxRulesDescriptionPadding:first-child {
+    padding-top: 0;
+}
+.boxRulesDescriptionPadding {
+    padding: .8em 0 .25em;
+    margin-bottom: 0;
+}
+
+
+.icon {
+    font-size: 20px;
+    font-weight: 400;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    width: 20px;
+}

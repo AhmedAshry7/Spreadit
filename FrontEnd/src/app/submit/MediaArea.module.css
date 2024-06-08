@@ -1,0 +1,201 @@
+.container {
+    border-radius: 4px;
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.inputWrapper [contenteditable], 
+.inputWrapper input, 
+.inputWrapper textarea {
+    color: #1c1c1c;
+    caret-color: #0079d3;
+}
+
+  .uploadedBorder {
+    border: 1px solid #edeff1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.uploadedFlex {
+    display: -ms-flexbox;
+    display: flex;
+    overflow: auto;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.uploadedBlock {
+    display: block;
+    overflow: auto;
+}
+
+.uploadedBlockSize {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.uploadedContentFlow {
+    gap: 10px;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.uploadedContentOverflow {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.uploadedAddMargin {
+    margin-right: 8px;
+}
+
+.uploadedAddButton {
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px dashed #d6d6d6;
+    border-radius: 4px;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100px;
+    
+    fill: #898989;
+}
+
+.uploadedAddButton:hover {
+    fill: #1c1c1c;
+    cursor: pointer;
+}
+
+.uploadedPlusIcon {
+    height: 36px;
+    opacity: .8;
+    width: 36px;
+}
+
+.uploadedImageFlex {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.uploadedImageSpanFlex {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/*selected*/
+.uploadedImageSelected {
+    -ms-flex-align: center;
+    align-items: center;
+    border: 2px solid #898989;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.uploadedImagePosition {
+    border-bottom: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 100px;
+    margin: 0 12px 12px 0;
+    padding: 0;
+    position: relative;
+    width: 100px;
+}
+
+.uploadedImageDisplay {
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 12px 0;
+    text-decoration: none;
+    border-bottom: 1px solid #edeff1;
+    cursor: pointer;
+    transition: all .3s;
+    box-shadow: none;
+}
+
+
+
+.uploadedImageFormatting {
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 4px;
+    display: block;
+    height: 100px;
+    opacity: .5;
+    outline: none;
+    width: 100px;
+}
+
+.uploadedImageSizeSelected {
+    height: 84px;
+    margin: 6px;
+    opacity: 1;
+    width: 84px;
+}
+
+.uploadedImageFormatting:hover {
+    opacity: 1;
+}
+
+.uploadedPreviewFlex {
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f6f7f8;
+    border-radius: 4px;
+    display: -ms-flexbox;
+    display: flex;
+    height: 324px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 12px 12px 12px 0;
+    width: 50%;
+}
+
+.uploadedPreviewImage {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.deleteButton {
+    -ms-flex-align: center;
+    align-items: center;
+    fill: #000000;
+    border-radius: 50%;
+    display: none;
+    height: 21px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 60px;
+    position: relative;
+    top: 4px;
+    width: 21px;
+}
+
+.deleteSvg {
+    border-radius: 9999px;
+    background-color: #fff;
+    display: none;
+    height: 25px;
+    position: absolute;
+    width: 25px;
+}
+
+.uploadedImageFormatting:hover .deleteButton,
+.uploadedImageFormatting:hover .deleteSvg {
+    display: flex; /* Show delete button and SVG when hovering over the image */
+}

@@ -1,0 +1,206 @@
+
+.createDropdownMenu {
+    visibility: hidden;
+    position: absolute;
+    z-index: 11;
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    top: 100%;
+    left: -0.8px;
+    right: -1px;
+    max-height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ea0027;
+    box-shadow: 0 -7px 0 -1px #ffffff,0 0 2px 1px #edeff1;
+}
+
+.DropdownMenu {
+    visibility: visible;
+    border-color: #edeff1;
+}
+
+.DropdownMenuSection {
+    border-bottom: 1px solid #edeff1;
+}
+
+.DropdownMenuCommunityHeader {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 8px 8px 3px 16px;
+}
+
+.DropdownMenuCommunityHeaderText {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 12px;
+    text-transform: uppercase;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #878a8c;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.buttonCreateNewMargin {
+    margin-left: auto;
+}
+.buttonCreateNew {
+    position: relative;
+    border: 1px solid transparent;
+    color: #0079d3;
+    fill: #0079d3;
+}
+
+.buttonCreateNew:hover {
+    background-color: #ededed;
+}
+
+.buttonCreateNew:active {
+    background-color: #c8c8c9;
+}
+
+.buttonCreateNewText {
+    font-family: Noto Sans, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: unset;
+    line-height: 16px;
+    text-transform: unset;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 4px 8px;
+}
+.buttonCreateNewAlignment {
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 9999px;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+
+.userHeader {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #878a8c;
+    padding: 16px 16px 3px;
+}
+
+.userIconPosition {
+    position: relative;
+    height: 100%;
+}
+
+.userIconRadius {
+    border-radius: 4px;
+}
+.userIconSize {
+    margin: 2px 8px 2px 0;
+    height: 32px;
+    max-height: 32px;
+    max-width: 32px;
+    width: 32px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.userIconIdent {
+    color: #ffffff;
+    text-indent: -9999px;
+}
+.userIconBorder {
+    box-sizing: border-box;
+    border: 1px solid #edeff1;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.userNameFlex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    min-width: 100px;
+}
+
+.userNameText {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.menuCommunityContainer {
+    cursor: pointer;
+    transition: margin 0.1s ease;
+}
+
+.menuCommunityContainer:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    margin:5px;
+    transition: margin 0.15s ease;
+}
+
+
+.menuCommunity {
+    padding: 8px;
+    color: #1c1c1c;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.menuCommunityIcon {
+    margin: 2px 8px 2px 0;
+    height: 32px;
+    max-height: 32px;
+    max-width: 32px;
+    width: 32px;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.menuCommunityDetailsFlex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    min-width: 100px;
+}
+
+.menuCommunityDetailsTitle {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.menuCommunityDetailsMembers {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #878a8c;
+}

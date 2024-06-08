@@ -1,0 +1,51 @@
+
+form{
+    margin: 0px;
+}
+
+.info_holder{
+    margin: 10px 0px;
+    height: 35px;
+    width: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50px;
+    
+}
+
+.continue_with{
+    font-size: 14px;
+    font-weight: 350;
+    letter-spacing: .5px;
+    color: black;
+    border-color: grey ;
+    border-radius: 20px;
+    text-align: center;
+    background: transparent;
+    line-height: unset;
+    min-height: 35px;
+    min-width: 260px;
+    padding: 5px 10px;
+    margin: 5px;
+    transition: box-shadow 0.3s ease;
+}
+.continue_with:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background: #f5f3f3db;
+  }
+.continue_with:active {
+    background: #b4b2b2;
+}
+
+.or_spliter{
+    color: rgb(125, 125, 125);
+    margin: 10px 0px;
+}
+
+BlueButton{
+    margin: 20px;
+}
+
+.errors-text{
+    color: red;
+    font-size: 10px;
+}

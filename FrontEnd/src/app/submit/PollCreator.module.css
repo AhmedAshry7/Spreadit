@@ -1,0 +1,185 @@
+.pollContainer {
+    background-color: #ffffff;
+    border-top-width: 1px;
+    border: 1px solid #edeff1;
+    border-top: 0 solid #edeff1;
+    padding: 8px 0;
+}
+
+.pollFlex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.pollLeft {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.pollItemPadding {
+    margin-left: 18px;
+    padding: 4px 0 4px 4px;
+    position: relative;
+    /* transition: opacity .2s,left .2s; */
+}
+
+.pollItemTextbox {
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #edeff1;
+    box-sizing: border-box;
+    caret-color: #0079d3;
+    color: #1c1c1c;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    font-size: 14px;
+    line-height: 21px;
+    outline: none;
+    padding: 8px 16px;
+    width: 100%;
+}
+
+
+
+.addBtnFlex {
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 9999px;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+
+.addBtnFont {
+    font-family: Noto Sans,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: unset;
+    line-height: 17px;
+    text-transform: unset;
+    min-height: 32px;
+    min-width: 32px;
+    padding: 4px 16px;
+}
+
+.addBtnColor {
+    position: relative;
+    border: 1px solid transparent;
+    color: #0079d3;
+    fill: #0079d3;
+}
+
+.addBtnColor:disabled {
+    cursor: not-allowed;
+    filter: grayscale(1);
+    color: #7c7c7c;
+    fill: #7c7c7c;
+}
+
+.addBtnColor:hover {
+    background-color: #ededed;
+}
+
+.addBtnColor:active {
+    background-color: #c9c9c9;
+}
+
+.pollItemPadding, .pollSettingsFlex {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.pollSettingsFlex {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 8px;
+    padding-right: 20px;
+}
+
+.deleteIcon {
+    cursor: pointer;
+    fill: #878a8c;
+    height: 20px;
+    position: absolute;
+    right: 12px;
+    width: 20px;
+}
+
+.votelengthFlex {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.votelengthText {
+    flex: 100%;
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: 10px;
+    color:L #878a8c;
+}
+
+.pollRight {
+    box-sizing: border-box;
+    color:#1c1c1c;
+    fill: #1c1c1c;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 4px 0 4px 8px;
+    width: 230px;
+}
+
+.pollRightHeader {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    margin-left: 5px;
+    padding-bottom: 6px;
+}
+
+.infoIcon {
+    height: 20px;
+    width: 20px;
+}
+
+.pollRightHeaderText {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-left: 4px;
+}
+
+.pollRightList {
+    list-style: decimal outside;
+    padding: 0 24px;
+}
+
+.pollRightListBullet {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-bottom: 5px;
+    padding-left: 6px;
+}

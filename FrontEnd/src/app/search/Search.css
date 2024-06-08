@@ -1,0 +1,274 @@
+.rulesandremoval{
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.title{
+    font-size: 12px;
+    font-weight: 550;
+    color: rgb(127, 127, 127);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+
+.switchbuttons{
+    display: flex;
+}
+
+.buttons1{
+    border-color: transparent;
+    background-color: rgb(255, 255, 255);
+    color: rgb(88, 88, 88);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    border-radius: 35px;
+    min-width: 80px;
+    color: black;
+}
+
+.buttons2{
+    margin-left: 5px;
+    border-color: transparent;
+    background-color: rgb(255, 255, 255);
+    color: rgb(104, 104, 104);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    border-radius: 35px;
+    min-width: 130px;
+    text-align: center;
+    color: black;
+
+}
+
+.buttons3{
+    margin-left: 5px;
+    border-color: transparent;
+    background-color: rgb(255, 255, 255);
+    color: rgb(104, 104, 104);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    border-radius: 35px;
+    min-width: 110px;
+    text-align: center;
+    color: black;
+
+}
+
+.buttons4{
+    margin-left: 5px;
+    border-color: transparent;
+    background-color: rgb(255, 255, 255);
+    color: rgb(104, 104, 104);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    border-radius: 35px;
+    min-width: 90px;
+    text-align: center;
+    color: black;
+
+}
+
+.buttons1clicked{
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    border-radius: 35px;
+    min-width: 80px;
+    background-color: rgb(217, 217, 217);
+    color: rgb(0, 0, 0);
+}
+
+.buttons2clicked{
+    margin-left: 5px;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    border-radius: 35px;
+    min-width: 130px;
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    color: rgb(0, 0, 0);
+}
+
+.buttons3clicked{
+    margin-left: 5px;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    border-radius: 35px;
+    min-width: 110px;
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    color: rgb(0, 0, 0);
+}
+
+.buttons4clicked{
+    margin-left: 5px;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 45px;
+    border-radius: 35px;
+    min-width: 90px;
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    color: rgb(0, 0, 0);
+}
+
+
+
+.desc{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--newCommunityTheme-bodyText);
+}
+
+.contentbox {
+    list-style-type: none; 
+    margin: 0;  
+    padding: 0;  
+    width: 100%;
+}
+
+.editbutton{
+    margin: 0px 0px;
+    margin-left: auto;
+    margin-right: 10px;
+    color: black;
+}
+
+
+.row {
+    box-sizing: border-box;  
+    cursor: pointer;  
+    margin-left: -5px;
+    width: 100%;
+    
+}
+
+.dropdownmaintitle{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 16px 8px;
+    word-break: break-word;
+}
+
+.dropdown{
+    display: flex;
+    font-family: Arial;
+    height: 50px;
+    margin-bottom: -1px;
+    width: 100%;
+    border-color: rgb(236, 236, 236);
+    background-color: white;
+    border-bottom-color: rgba(255, 255, 255, 0.241);
+    border-right-color: rgba(255, 255, 255, 0.241);
+    align-items: center;
+    outline: none;
+}
+
+.spliter{
+    max-width: 70% ;
+}
+
+.linespliter{
+    color: #dfdfdf;
+    font-weight: 300;
+}
+
+.sort {
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+  }
+
+.sorttype:hover {
+    background-color:#e1e1e1;
+}
+  
+  .sorttitle {
+    margin-right: 10px;
+    color: #656565;
+    font-size: small;
+  }
+  
+  .sorttype {
+    display: flex;
+    cursor: pointer;
+    height: 27px;
+    border-radius: 20px;
+    z-index: 7;
+    color: #656565;
+    font-size: 90%;
+
+  }
+
+  .sorticon{
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-left: 8px;
+  }
+
+  .sorticondropdown{
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+
+  .arrowbutton{
+    margin-top: 0px;
+    margin-right: 5px;
+    max-width: 21px;
+}
+  
+  .dropdownsort {
+    margin-top: 21px;
+    margin-left: 40px;
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 170px;
+    z-index: 6;
+    border-radius: 10px;
+    font-size: 90%;
+  }
+  
+  .dropdownsort ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdownsort ul li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdownsort ul li:hover {
+    background-color: #f0f0f0;
+  }
+  

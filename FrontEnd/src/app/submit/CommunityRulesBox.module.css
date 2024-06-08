@@ -1,0 +1,38 @@
+.boxSize {
+    margin-top: 16px;
+    width: 312px;
+}
+
+.boxStyling {
+    background-color: #ffffff;
+    color: #ccc;
+    fill: #1c1c1c;
+    border: 1px solid #1c1c1c;
+    border-radius: 4px;
+    overflow: visible;
+    word-wrap: break-word;
+    border-color: #ccc;
+}
+
+.boxPadding {
+    padding: 12px;
+}
+
+.boxHeader {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 12px;
+    text-transform: uppercase;
+    background-color: #da732f;
+    border-radius: 3px 3px 0 0;
+    color: #ffffff;
+    display: -ms-flexbox;
+    display: flex;
+    fill: #ffffff;
+    padding: 0 12px 12px;
+}
+
+.boxHeaderPadding {
+    padding: 12px 0 0;
+}

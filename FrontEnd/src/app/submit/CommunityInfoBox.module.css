@@ -1,0 +1,165 @@
+.boxSize {
+    margin-top: 16px;
+    width: 312px;
+}
+
+.boxStyling {
+    background-color: #ffffff;
+    color: #ccc;
+    fill: #1c1c1c;
+    border: 1px solid #1c1c1c;
+    border-radius: 4px;
+    overflow: visible;
+    word-wrap: break-word;
+    border-color: #ccc;
+}
+
+.boxPadding {
+    padding: 12px;
+}
+
+.boxBanner {
+    /*Not necessarily purple, might be changed to community active*/
+    background-color: #cd44db;
+    background-size: cover;
+    /*background-image: var(--newCommunityTheme-banner-backgroundImage);*/
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-radius: 3px 3px 0 0;
+    height: 34px;
+    margin: -12px -12px 10px;
+}
+
+.boxTitle {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.boxTitle>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.boxIconBorder {
+    border-radius: 100%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    -ms-flex: none;
+    flex: none;
+    margin-right: 8px;
+}
+
+.boxIcon {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 54px;
+    width: 54px;
+    font-size: 54px;
+    line-height: 54px;
+}
+
+.boxTitleText {
+    display: inline-block;
+}
+
+.boxTitletextLink {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.boxTitletextLink {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.boxTitleTextStyle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.boxDescription {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.boxDescriptionStyle {
+    font-family: Noto Sans,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.boxCreated {
+    margin-top: 12px;
+}
+
+.boxCreatedText {
+    font-family: Noto Sans,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+
+.iconMargin {
+    margin: -2px 14px 0 0;
+}
+
+.icon {
+    font-size: 20px;
+    font-weight: 400;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    width: 20px;
+}
+
+.boxCreatedTextColor {
+    color: #7c7c7c;
+}
+
+.spacingDiv {
+    margin-top: 8px;
+}
+
+.middleHr {
+    background-color: rgba(26, 26, 27, 0.3);
+    border: none;
+    height: 1px;
+    margin: 16px 0;
+}
+
+.boxOnline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.boxOnlineFont {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.boxOnlineText {
+    font-weight: 400;
+    color: #7c7c7c;
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-block;
+    word-break: break-word;
+}
