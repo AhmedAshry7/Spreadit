@@ -1,0 +1,35 @@
+.tabs{
+    display: flex;
+    margin: 1rem .25rem;
+    max-width: 1200px;
+}
+
+.link{
+    background: none;
+	color: #0F1A1C;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 999px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.selected{
+    background-color: #E2E7E9;
+}
+
+.link h1 {
+    margin: 0px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 14px;
+    padding: 12px;
+    border: none;
+    text-decoration: none;
+}

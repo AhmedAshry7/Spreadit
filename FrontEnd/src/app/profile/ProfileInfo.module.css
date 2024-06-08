@@ -1,0 +1,125 @@
+.info{
+    width: 316px;
+    height: 176px;
+    padding: 1rem;
+    background-color: #f9fafa;
+    border-radius: 1rem;
+}
+
+.username_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.username_container h2{
+    color: #0F1A1C;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    overflow: hidden;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    background-color: #EAEDEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle:hover{
+    cursor: pointer;
+    background-color: #E2E7E9;
+}
+
+.action_buttons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn{
+    background-color: #EAEDEF;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 6px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    height: 32px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn:hover{
+    background-color: #E2E7E9;
+}
+
+.blue{
+    background-color: #0045AC;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 6px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    height: 32px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blue:hover{
+    background-color: #003584;
+}
+
+.stats_container{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0.75rem;
+    margin: 1rem 0;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.stats_value{
+    color: #0F1A1C;
+    font-weight: 600;
+    font-size: 0,875rem;
+    margin: 0;
+    line-height: 1.25rem;
+    white-space: nowrap;
+}
+
+.stats_description{
+    color: #576F76;
+    font-size: .75rem;
+    line-height: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+}

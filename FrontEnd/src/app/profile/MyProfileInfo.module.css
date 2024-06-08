@@ -1,0 +1,140 @@
+.dividor{
+    border-color: #0000001a;
+    border-style: solid;
+    border-bottom-width: .0625rem;
+    border-width: 0;
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+}
+
+.info{
+    width: 305px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.banner{
+    width: 305px;
+    height: 114px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: #EAEDEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.circle:hover{
+    cursor: pointer;
+    background-color: #E2E7E9;
+}
+
+.main_body{
+    padding: 1rem;
+    background-color: #f9fafa;
+}
+
+.username_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.username{
+    color: #0F1A1C;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    overflow: hidden;
+    margin: 0;
+
+}
+
+.stats{
+    display: grid;
+    row-gap: 1.5rem;
+    margin: 1rem 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.stats_info{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.info_data{
+    color: #0F1A1C;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.info_title{
+    color: #576F76;
+    font-size: .75rem;
+    line-height: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+}
+
+.section_header{
+    color: #576F76;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .75rem;
+    line-height: 1rem;
+    margin: 1rem 0;
+}
+
+.settings_list{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.social_links{
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+.btn{
+    background-color: #EAEDEF;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 6px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    height: 25px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn:hover{
+    background-color: #E2E7E9;
+}
+

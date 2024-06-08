@@ -1,0 +1,91 @@
+.modal {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 350px;
+    height: fit-content;
+    max-height: 555px;
+    background-color: white;
+    z-index: 15;
+    left: -285px;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.modalHeader {
+    display: flex;
+    margin-left: 5px;
+}
+
+.messages {
+    margin-left: auto;
+    margin-right: 5px;
+    display: flex;
+    column-gap: 5px;
+    cursor: pointer;
+    justify-content: center;
+    width: 45%;
+}
+
+.messagesNumber {
+    display: flex;
+    border-radius: 50%;
+    background-color:rgb(255, 69, 0);
+    color: white;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+
+.modalBody {
+    overflow: auto;
+}
+
+.modalFooter {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 5px;
+    border-top: solid 1px rgba(0, 0, 0, 0.5);
+}
+
+.seeAll {
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px 0px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.notifications {
+    display: flex;
+    border-bottom: solid 3px rgb(0, 69, 172) ;
+    width: 45%;
+    justify-content: center;
+}
+
+.settings {
+    display: flex;
+    cursor: pointer;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.markRead {
+    display: flex;
+    cursor: pointer;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.notification {
+    font-size: 12px;
+}

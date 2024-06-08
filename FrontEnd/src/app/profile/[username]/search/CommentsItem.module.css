@@ -1,0 +1,81 @@
+.dropdown {
+
+    list-style-type: none;
+    margin-left: -30px;
+    margin-left:10px ;
+
+}
+
+.dropdownrow {
+    display: flex; 
+    cursor: pointer;
+    padding: 10px 0px;
+    list-style-type: none;
+    max-width: 70%;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left:-10px ;
+}
+
+.dropdownrow:hover {
+    background-color: #f2f2f2;
+}
+
+.iconcontainer{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.commentoncomment{
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 90%;
+}
+
+.icon{
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.comment{
+    margin-left: 40px;
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.name{
+    color: #393939;
+    font-size: 80%;
+}
+
+.name:hover{
+    text-decoration: underline;
+}
+
+.commentcontent{
+    margin-left: 25px;
+    font-size: 80%;
+}
+
+.commentvotes{
+    margin-left: 20px;
+    color: #696969;
+    font-size: 75%;
+}
+
+.commentandvotes{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #696969;
+    font-size: 75%;
+
+}
+
+.subredditinfo{
+    position: relative;
+}
+
