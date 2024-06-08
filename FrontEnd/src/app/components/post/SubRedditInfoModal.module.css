@@ -1,0 +1,76 @@
+.modal {
+    position: absolute;
+    max-width: 320px;
+    width: 520%;
+    border-radius: 16px;
+    background-color: white;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    top: 35px;
+    overflow: hidden;
+    height: fit-content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: auto;
+    height: 80px;
+}
+
+.subRedditNameAndPicture {
+    white-space: nowrap;
+    align-items: center;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 0;
+    line-height: 1.5rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.subRedditName {
+    text-decoration: none;
+    color: black;
+}
+
+.subRedditName:hover {
+    color: rgb(0, 53, 132);
+    text-decoration: underline;
+}
+
+.subRedditPicture {
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    border-radius: 100%;
+    margin-right: 6px;
+}
+
+.subRedditDescription {
+    height: fit-content;
+    text-wrap: wrap;
+    padding: 10px;
+    line-height: 1.25rem;
+    font-weight: 400;
+    font-size: .875rem;
+}
+
+.joinButton {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-left: auto;
+    filter: brightness(100%) saturate(0%) invert(100%);
+}

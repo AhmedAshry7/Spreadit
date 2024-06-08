@@ -1,0 +1,37 @@
+.button {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: white;
+    border: 1px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 69, 172);
+    line-height: unset;
+    min-height: 35px;
+    max-width: 392px;
+    width: auto;
+    height: 40px;
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.button:hover {
+    background: rgb(0, 53, 132);
+    cursor: pointer;
+}
+
+.button.inactive {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    opacity: 0.2;
+} 
+
+.button.inactive:hover {
+    cursor: default;
+}
+

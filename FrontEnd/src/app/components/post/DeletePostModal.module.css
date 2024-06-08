@@ -1,0 +1,96 @@
+.modelOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    pointer-events: auto;
+    cursor: default;
+}
+
+
+.modal {
+    box-shadow: rgba(26, 26, 27, 0.3) 0px 2px 15px 0px, 0 0 0 max(100vw, 100vh) rgb(0 0 0 / 60%);;
+    overflow-y: auto;
+    max-width: 324px;
+    width: 100%;
+    height: 160px;
+    box-sizing: border-box;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    left: 0px;
+    right: 0px;
+    background: white;
+    margin: auto;
+    padding: 1rem;
+    pointer-events: all;
+    max-height: 45vh;
+    top: 50%;
+    transform: translateY(-50%);
+    position: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    cursor:text
+}
+
+.description {
+    font-size: 14px;
+    cursor:text
+}
+
+.close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: auto;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0.075);
+    border: none;
+    border-radius: 100%;
+    background-size: auto;
+    height: 32px;
+    line-height: 30px;
+    width: 32px;
+    cursor: pointer;
+    position: relative;
+}
+
+.close:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.buttons {
+    display: flex;
+    column-gap: 20px;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-top: auto;
+}
+
+.back {
+    filter: brightness(80%) contrast(120%) invert(100%) saturate(0%);
+}
+
+.delete {
+    filter: hue-rotate(135deg) saturate(150%);
+}
+
+.delete:hover {
+    filter: hue-rotate(135deg) brightness(98%) saturate(150%);
+}

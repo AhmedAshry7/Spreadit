@@ -1,0 +1,110 @@
+.header {
+    font-size: 12px;
+    line-height: 16px;
+    overflow-wrap: break-word;
+    text-wrap: nowrap;
+    display: flex;
+    margin-bottom: 4px;
+    margin-top: -4px;
+    min-height: 32px;
+    justify-content: space-between;
+}
+
+.postHeaderInfo {
+    display: flex;
+    column-gap: 4px;
+    flex-wrap: wrap;
+    position: relative;
+    row-gap: 4px;
+    align-items: center;
+}
+
+.postInfo{
+    display: flex;
+    column-gap: 4px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.subRedditNameAndPicture {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* .subRedditNameAndPicture:hover:nth-child(4):nth-child(1){
+    color: rgb(0, 53, 132);
+} */
+
+.showmodalarea{
+    top: -15px;
+    left: 25px;
+    width: 45%;
+    position: absolute;
+}
+
+.subRedditPicture:hover+.subredditandusername .subRedditName {
+    color: rgb(0, 53, 132);   
+}
+ .userName:hover, .subRedditName:hover {
+    color: rgb(0, 53, 132);
+}
+
+.subRedditPicture {
+    align-items: center;
+    border-radius: 100%;
+    height: 24px;
+    width: 24px;
+    margin-right: 6px;
+}
+
+.subRedditName, .userName {
+    font-size: 16px;
+    color: rgb(50, 54, 58);
+    font-weight: 600;
+}
+
+.userName{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.time {
+    color: rgb(97, 104, 110);
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: auto;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 100%;
+    background-size: auto;
+    height: 32px;
+    line-height: 30px;
+    width: 32px;
+    cursor: pointer;
+    position: relative;
+}
+
+.options:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.joinAndOptions {
+    display: flex;
+    align-items: center;
+}
+
+.joinButton {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-right: 2px;
+}
