@@ -1,0 +1,29 @@
+pipeline {
+        agent any
+    stages {
+        stage('clone repo') {
+            steps {
+                 sh 'sudo rm -rf Spreadit-FE && git clone https://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@github.com/Spreaddit/Spreadit-FE.git'
+            }
+        }
+        stage('Install Dependencies') {
+            steps {
+                sh 'echo "Installing Dependencies"'
+                // Install frontend dependencies
+                sh 'cd Spreadit-FE && npm install'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'cd Spreadit-FE && npm run build'
+            }
+        }
+        stage('Run') {
+            steps {
+                sh 'cd Spreadit-FE && pm2 start npm --name front -- start -- -p 3001 && pm2 list && pm2 save'
+                //sh 'cd Spreadit-FE && pm2 list && sudo pm2 restart front && pm2 list && pm2 save'
+                sh 'sudo systemctl restart nginx'
+            }
+        }
+    }
+}
